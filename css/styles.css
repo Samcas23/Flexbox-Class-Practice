@@ -1,0 +1,114 @@
+/*
+div{
+    padding: 10px;
+    border: 1px solid black;
+}
+/*
+    display
+    flex-direction- if in a row or a column
+    justify-content "horizontal"
+    flex- proportions
+    align-items-changes in "columns"
+    align-cell
+
+
+.leftSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 300px;
+    align-items: flex-start;
+    flex: 1;
+}
+/*
+    flex-start(left)
+    center
+    flex-end(right) 
+    space-around
+    space-between
+    space-evenly
+
+
+.item1{
+    flex: 1;
+    margin-right: 50px;
+    align-self: center;
+}
+
+.item2, .item3{
+    flex: 4;
+}
+
+
+
+.rightSection{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    flex: 1;
+}
+
+.mainContainer{
+    display: flex;
+    ;
+}
+*/
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo>img{
+    width: 55px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+body{
+    margin: 0;
+}
+.menu{
+    display: flex;
+    flex-direction:row;
+    color: white;
+    justify-content:flex-end;
+    list-style: none;
+    margin-right: 30px;
+    background-color: gray;
+    padding: 25px;
+}
+
+.menu>li{
+    margin-right: 45px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+.product{
+    flex: 1;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    
+}
